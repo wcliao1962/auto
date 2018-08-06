@@ -1,0 +1,11 @@
+{
+    "name": "liaowenchung/demo",
+    "description": "demo",
+    "authors": [
+        {
+            "name": "廖文忠",
+            "email": "wcliao1962@gmail.com"
+        }
+    ],
+    "require": {}
+}
