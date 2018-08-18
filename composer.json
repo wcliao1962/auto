@@ -7,5 +7,10 @@
             "email": "wcliao1962@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "src/Demo"
+        }
+    }
 }
