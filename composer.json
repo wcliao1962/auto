@@ -11,6 +11,14 @@
     "autoload": {
         "psr-4": {
             "Demo\\": "src/Demo"
-        }
+        },
+        "classmap": [
+            "./my_library",
+            "./other_library"
+        ],
+        "files": [
+            "src/Illuminate/Foundation/helpers.php",
+            "src/Illuminate/Support/helpers.php"
+        ]
     }
 }
