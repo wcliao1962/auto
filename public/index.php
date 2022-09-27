@@ -1,13 +1,16 @@
 <?php
 require '../vendor/autoload.php';
 
-use \Demo\HelloWorld as World;
+// 類別先import進來
 use Demo\Hello\Lara;
-use Demo\Hello;
-
-$world = new World();
+use Demo\Hello\Someone;
 $lara= new Lara();
-$vincent= new Hello\Someone('Vincent');
+$vincent= new Someone('Vincent');
 
-$mary = new \Demo\Hello\Someone('Mary');
-$john = new Demo\Hello\Someone('John');
+// 類別未先import進來
+$mary= new \Demo\Hello\Someone('Mary');
+$john= new Demo\Hello\Someone('John');
+$hello= new Demo\HelloWorld();
+
+use Demo\HelloWorld as World; // 類別另取別名
+$world = new World();
